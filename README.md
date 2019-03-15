@@ -1,6 +1,6 @@
 # aboutme
 <title>AboutMe</title>
-<body bgcolor="#FFCCCC" background="images/bg-blue.gif" text="#6600FF" link="#9900FF" vlink="#CC00FF" alink="#FF3333">
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ2jnfio4AIOM31qZFcacgQbNHABZqNz0pAgQEb0cf9ZZlLc_p">
 <font size="60">
 <marquee>Hello</marquee>
 </font>
