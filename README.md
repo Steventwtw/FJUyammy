@@ -1,5 +1,4 @@
 
-<title>AboutMe</title>
 <body bgcolor="blue" >
 <br>
 <font size="60" color="red">
