@@ -1,2 +1,7 @@
-<h1 align="center">HELLO</h1>
-
+<html>
+  <body bgcolor="blue">
+    <center>
+      <h1>Hello</h1>
+    </center>
+  </body>
+</html>
