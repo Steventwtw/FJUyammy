@@ -1,3 +1,3 @@
 # aboutme
 <title>AboutMe</title>
-<font size="1"> <marquee>Hello</marquee></font>
+<marquee font-size:18>Hello</marquee>
