@@ -1,0 +1,27 @@
+<style>
+.green-background{
+background-color:#3CB371
+}
+.white-background{
+background-color:#F0FFFF
+}
+.orange-text{
+color:#D2691E
+}
+
+.black-text{
+color:#000000
+}
+.frontbar{
+margin-top: 0px;
+}
+.fontA{
+font-size:25px;
+}
+.fontface{
+font-family:Microsoft JhengHei;
+}
+#B li {
+display:inline;
+}
+</style>
