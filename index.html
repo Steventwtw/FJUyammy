@@ -5,6 +5,9 @@
 <title>輔大美食簡介</title>
 <link rel=stylesheet type="text/css" href="webprojectcss.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="calendar.css"/>
+<script src="calendar.js" type="text/javascript"></script>
 
 </head>
 <body margin:0px; padding:0px; background="bg1.jpg" style="background-repeat:repeat;background-attachment:fixed;background-position:center; background-size: cover;">
@@ -12,12 +15,16 @@
 <center>
 <header style="background-color:#444444;height:5vh;width:55vw;">
 <table border="0">
-<tr class="rwdtxt2">
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">首頁&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">514巷&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">校園美食&nbsp; </a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">中正路&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">建國一路&nbsp;</a></font></td>
+<tr class="rwdtxt2" style="font-family:cursive">
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">&nbsp首頁&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">&nbsp514巷&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">&nbsp校園美食&nbsp&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">&nbsp中正路&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">&nbsp建國一路&nbsp</a></font></td>
 </tr>
 </table>
 </header>
@@ -33,6 +40,17 @@
 </div>
 </div>
 </center>
+<table width="400" border="0" cellspacing="0" cellpadding="0" style="position:absolute;left:85%; top:10%;">
+  <tr>
+    <td id="date" valign="top"><p>今天日期：<input name="start" type="text" id="start" size="8" readonly="true" />
+      <div id="startDate">
+        <script type="text/javascript">
+		  selectDate(y,m,d,"startDate","start");
+        </script>
+      </div>
+		</td>
+  </tr>
+</table>
 
 <center>
 <div class="white-background" style="width:55vw; height:1000px; position:relative;">
