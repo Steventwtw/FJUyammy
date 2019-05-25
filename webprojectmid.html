@@ -2,22 +2,44 @@
 <html lang="zh-TW">
 <head>
 
+<title>中正路</title>
 <link rel=stylesheet type="text/css" href="webprojectcss.css">
+<link rel="stylesheet" type="text/css" href="calendar.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
-<body margin:0px; padding:0px; background="bg2.jpg" style="background-repeat:repeat;background-attachment:fixed;background-position:center; background-size: cover;">
+<body margin:0px; padding:0px; background="bg5.jpg" style="background-repeat:repeat;background-attachment:fixed;background-position:center; background-size: cover;">
 
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
 
 <center>
 <header style="background-color:#444444;height:5vh;width:55vw;"class="fontA frontbar">
 <table border="0">
-<tr>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">首頁&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">514巷&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">校園美食&nbsp; </a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">中正路&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">建國一路&nbsp;</a></font></td>
+<tr class="rwdtxt2" style="font-family:cursive">
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">&nbsp首頁&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">&nbsp514巷&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">&nbsp校園美食&nbsp&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">&nbsp中正路&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">&nbsp建國一路&nbsp</a></font></td>
 </tr>
 </table>
 </header>
@@ -40,7 +62,7 @@
 </br>
 <div class="outside">
   <div id="left1" style="padding:30px">
-    <img src="http://pic.pimg.tw/jay7134/1417915581-1221971287_l.jpg" style="width:100%;">
+    <img src="lemon.jpg" style="width:100%;">
 
   </div>
   <div id="right1" style="padding:30px">
@@ -75,7 +97,7 @@
 </div>
 <div class="outside">
   <div id="left3" style="padding:30px">
-    <img src="http://pic.pimg.tw/anrine910070/1374398281-1564476114.jpg" style="width:100%;">
+    <img src="itali.jpg" style="width:100%;">
 
   </div>
   <div id="right3" style="padding:30px">
