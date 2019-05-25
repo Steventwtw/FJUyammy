@@ -1,23 +1,44 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-TW">
 <head>
 
+<title>514巷</title>
 <link rel=stylesheet type="text/css" href="webprojectcss.css">
+<link rel="stylesheet" type="text/css" href="calendar.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
-<body margin:0px; padding:0px; background="bg2.jpg" style="background-repeat:repeat;background-attachment:fixed;background-position:center; background-size: cover;">
+<body margin:0px; padding:0px; background="bg3.jpg" style="background-repeat:repeat;background-attachment:fixed;background-position:center; background-size: cover;">
 
-
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
 <center>
 <header style="background-color:#444444;height:5vh;width:55vw;"class="fontA frontbar">
 <table border="0">
-<tr>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">首頁&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">514巷&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">校園美食&nbsp; </a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">中正路&nbsp;</a></font></td>
-<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">建國一路&nbsp;</a></font></td>
+<tr class="rwdtxt2" style="font-family:cursive">
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="index.html" style="text-decoration:none;color:white;">&nbsp首頁&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webproject514.html" style="text-decoration:none;color:white;">&nbsp514巷&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectschool.html" style="text-decoration:none;color:white;">&nbsp校園美食&nbsp&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectmid.html" style="text-decoration:none;color:white;">&nbsp中正路&nbsp</a></font></td>
+<td style="height:5vh;"><font class="rwdtxt2 white-text">|</font></td>
+<td onMouseOver="this.style.backgroundColor='#FF0000';" onMouseOut="this.style.backgroundColor='#444444';" style="height:5vh;"><font class="rwdtxt2"><a href="webprojectgg.html" style="text-decoration:none;color:white;">&nbsp建國一路&nbsp</a></font></td>
 </tr>
 </table>
 </header>
@@ -35,8 +56,63 @@
 </center>
 
 <center>
-<div class="white-background" style="width:55vw; height:1000px; position:relative;">
+<div class="white-background" style="width:55vw; height:1100px; position:relative;">
+</br>
+</br>
+<div class="outside">
+  <div id="left1" style="padding:30px">
+    <img src="tao.jpg" style="width:100%; height:90%">
 
+  </div>
+  <div id="right1" style="padding:30px">
+  <p align="left">
+	<font size="5%" class="black-text rwdtxt2" face="DFKai-sb">
+	陶花園</br>
+	地址:新北市新莊區中正路514巷7號</br>
+	電話:02-2904-7868</br>
+	這家店的豬排超級大塊，而且有多種口味可以選擇，喜歡炸豬排並對自己食量有信心的同學，這家店絕對是首選。</br>
+	約140~150一份<br>
+	</font>
+	</p>
+  </div>
+</div>
+<div class="outside">
+  <div id="left2" style="padding:30px">
+    <img src="ten.jpg" style="width:100%; height:95%">
+
+  </div>
+  <div id="right2" style="padding:30px">
+  <p align="left">
+	<font size="5%" class="black-text rwdtxt2" face="DFKai-sb">
+	十堂</br>
+	地址:新北市新莊區中正路514巷3號</br>
+	電話:02-2902-3170</br>
+	提供拉麵、咖哩飯、定食的日式餐廳，有加飯加麵的選項，可以依照自己的食量來決定要吃的分量。</br>
+	主餐100~140</br>
+
+	</font>
+	</p>
+  </div>
+</div>
+<div class="outside">
+  <div id="left3" style="padding:30px">
+    <img src="chicken.jpg" style="width:100%; height:90%">
+
+  </div>
+  <div id="right3" style="padding:30px">
+  <p align="left">
+	<font size="5%" class="black-text rwdtxt2" face="DFKai-sb">
+	椒麻雞大王(輔大店)</br>
+	地址:新北市新莊區中正路514巷99號</br>
+	電話:02-2908-9999#103</br>
+	最推的就是他的椒麻雞腿飯，一點點酸辣的口感很下飯，提供自助的湯跟飲料，飯吃完了還可以免費加飯。</br>
+	均一價95元</br>
+
+
+	</font>
+	</p>
+  </div>
+</div>
 
 
 </div>
